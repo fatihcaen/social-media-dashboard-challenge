@@ -272,6 +272,9 @@ body {
 }
 
 .attribution {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
   margin-top: 20px;
   color: $white;
 
@@ -282,5 +285,45 @@ body {
 
   a:hover {
     text-decoration: underline;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    margin: 0 25px;
+  }
+  .topSection {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .modeSwitch {
+    justify-content: space-between;
+  }
+
+  .cardSection {
+    flex-flow: column;
+    align-items: center;
+
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .overviewCardSection {
+    flex-flow: column;
+    align-items: center;
+
+    .overviewCard {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .attribution {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
   }
 }
