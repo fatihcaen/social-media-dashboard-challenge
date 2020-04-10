@@ -10,6 +10,6 @@ You can access the challenge from <a href="https://www.frontendmentor.io/challen
 - SCSS
 - JS
 - VS Code
-- <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass&ssr=false#overview">Live SCSS Compiler</a> (VS Code extension)
-- Prettier (VS Code extension)
-- Live Server (VS Code extension. That allows you to see the changes realtime when you save.)
+- <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass">Live SCSS Compiler</a> (VS Code extension)
+- <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a> (VS Code extension)
+- <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (VS Code extension. That allows you to see the changes realtime when you save.)
