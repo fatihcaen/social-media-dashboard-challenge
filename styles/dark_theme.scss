@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+// Primary
+$font: Inter, sans-serif;
+$lime: #1db489;
+$bright-red: #dc414c;
+$facebook: #4267b2;
+$twitter: #1da1f2;
+$instagram: #e1306c;
+$youtube: #ff0000;
+$card-header-font-size: 14px;
+
+// Light Theme Colors
+$white: #fff; // using in both themes
+$light-grayish-blue: #f0f2fa; // card bg
+$dark-grayish-blue: #63687e; // txt
+
+$toggle-color: #aeb3cb; // switch
+
+// Dark Theme Colors
+$very-dark-blue: #1e202a; // bg
+$dark-desatured-blue: #252a41; // card bg
+$desaturated-blue: #8b97c6; // card txt
+$toggle-color-dark: linear-gradient(to right, #378fe6, #3eda82);
+
+body {
+  font-family: $font;
+  background-color: $very-dark-blue;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin: 0 100px;
+  height: 100%;
+}
+
+.topSection {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .title {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+
+    .bigTitle {
+      margin: 0;
+      color: $white;
+    }
+
+    .followers {
+      margin: 0;
+      color: $desaturated-blue;
+    }
+  }
+
+  .modeSwitch {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    h5 {
+      color: $desaturated-blue;
+    }
+
+    .switchContainer {
+      background: $toggle-color-dark;
+      height: 25px;
+      border-radius: 50px;
+      width: 50px;
+      margin-left: 10px;
+      display: flex;
+      flex-flow: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      .switchButton {
+        background-color: $white;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 3px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.cardSection {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  #facebook {
+    border-top: 3px solid $facebook;
+  }
+
+  #twitter {
+    border-top: 3px solid $twitter;
+  }
+
+  #instagram {
+    border-top: 3px solid $instagram;
+  }
+
+  #youtube {
+    border-top: 3px solid $youtube;
+
+    #youtubeDown {
+      h6 {
+        color: $bright-red;
+      }
+
+      img {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .card {
+    height: 175px;
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $dark-desatured-blue;
+    border-radius: 5px;
+
+    .cardTop {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-around;
+
+      .logo {
+        margin-right: 5px;
+
+        img {
+          width: 17px;
+        }
+      }
+
+      .username {
+        color: $desaturated-blue;
+        font-size: 11px;
+        font-weight: 700;
+      }
+    }
+
+    .followersNum {
+      h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 45px;
+        color: $white;
+      }
+      p {
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 11px;
+        margin: 0;
+        color: $desaturated-blue;
+      }
+    }
+
+    .upDown {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+
+      img {
+        margin-right: 5px;
+      }
+
+      h6 {
+        color: $lime;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.overviewTitle {
+  margin: 0;
+  margin-top: 30px;
+  color: $white;
+}
+
+.overviewCardSection {
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  .overviewCard {
+    height: 110px;
+    width: 20%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background-color: $dark-desatured-blue;
+    border-radius: 5px;
+
+    .leftSection {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+
+      .pageViewTitle {
+        font-size: 12px;
+        color: $desaturated-blue;
+      }
+
+      .pageViewNum {
+        color: $white;
+      }
+
+      .pageViewTitle,
+      .pageViewNum {
+        margin: 0;
+      }
+    }
+
+    .rightSection {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-evenly;
+      align-items: flex-end;
+
+      .icon {
+        img {
+          width: 17px;
+        }
+      }
+
+      .percentUp {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+
+        img {
+          margin-right: 5px;
+        }
+
+        h6 {
+          margin: 0;
+          color: $lime;
+        }
+      }
+
+      .percentDown {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+
+        img {
+          margin-right: 5px;
+        }
+
+        h6 {
+          margin: 0;
+          color: $bright-red;
+        }
+      }
+    }
+  }
+}
+
+.attribution {
+  margin-top: 20px;
+  color: $white;
+
+  a {
+    color: $desaturated-blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
