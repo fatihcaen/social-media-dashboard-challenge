@@ -2,100 +2,55 @@
 body {
   font-family: Inter, sans-serif;
   background-color: #1e202a;
-  -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: column;
+  justify-content: space-around;
   margin: 0 100px;
   height: 100%;
 }
 
 .topSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-flow: row;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
-
 .topSection .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-flow: column;
+  justify-content: space-evenly;
 }
-
 .topSection .title .bigTitle {
   margin: 0;
   color: #fff;
 }
-
 .topSection .title .followers {
   margin: 0;
   color: #8b97c6;
 }
-
 .topSection .modeSwitch {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: row;
+  align-items: center;
 }
-
 .topSection .modeSwitch h5 {
   color: #8b97c6;
 }
-
 .topSection .modeSwitch .switchContainer {
-  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
   background: linear-gradient(to right, #378fe6, #3eda82);
   height: 25px;
   border-radius: 50px;
   width: 50px;
   margin-left: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 .topSection .modeSwitch .switchContainer .switchButton {
   background-color: #fff;
   height: 20px;
@@ -106,94 +61,60 @@ body {
 }
 
 .cardSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-flow: row;
+  justify-content: space-between;
 }
-
 .cardSection #facebook {
   border-top: 3px solid #4267b2;
 }
-
 .cardSection #twitter {
   border-top: 3px solid #1da1f2;
 }
-
 .cardSection #instagram {
   border-top: 3px solid #e1306c;
 }
-
 .cardSection #youtube {
   border-top: 3px solid #ff0000;
 }
-
 .cardSection #youtube #youtubeDown h6 {
   color: #dc414c;
 }
-
 .cardSection #youtube #youtubeDown img {
   margin-right: 5px;
 }
-
 .cardSection .card {
   height: 175px;
   width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
   background-color: #252a41;
   border-radius: 5px;
 }
-
 .cardSection .card .cardTop {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: row;
+  justify-content: space-around;
 }
-
 .cardSection .card .cardTop .logo {
   margin-right: 5px;
 }
-
 .cardSection .card .cardTop .logo img {
   width: 17px;
 }
-
 .cardSection .card .cardTop .username {
   color: #8b97c6;
   font-size: 11px;
   font-weight: 700;
 }
-
 .cardSection .card .followersNum h1 {
   text-align: center;
   margin: 0;
   font-size: 45px;
   color: #fff;
 }
-
 .cardSection .card .followersNum p {
   text-align: center;
   letter-spacing: 4px;
@@ -201,24 +122,14 @@ body {
   margin: 0;
   color: #8b97c6;
 }
-
 .cardSection .card .upDown {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: row;
+  align-items: center;
 }
-
 .cardSection .card .upDown img {
   margin-right: 5px;
 }
-
 .cardSection .card .upDown h6 {
   color: #1db489;
   margin: 0;
@@ -232,148 +143,81 @@ body {
 
 .overviewCardSection {
   margin-top: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-flow: row;
+  justify-content: space-between;
 }
-
 .overviewCardSection .overviewCard {
   height: 110px;
   width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: row;
+  justify-content: space-around;
   background-color: #252a41;
   border-radius: 5px;
 }
-
 .overviewCardSection .overviewCard .leftSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
-
 .overviewCardSection .overviewCard .leftSection .pageViewTitle {
   font-size: 12px;
   color: #8b97c6;
 }
-
 .overviewCardSection .overviewCard .leftSection .pageViewNum {
   color: #fff;
 }
-
 .overviewCardSection .overviewCard .leftSection .pageViewTitle,
 .overviewCardSection .overviewCard .leftSection .pageViewNum {
   margin: 0;
 }
-
 .overviewCardSection .overviewCard .rightSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
-
 .overviewCardSection .overviewCard .rightSection .icon img {
   width: 17px;
 }
-
 .overviewCardSection .overviewCard .rightSection .percentUp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: row;
+  align-items: center;
 }
-
 .overviewCardSection .overviewCard .rightSection .percentUp img {
   margin-right: 5px;
 }
-
 .overviewCardSection .overviewCard .rightSection .percentUp h6 {
   margin: 0;
   color: #1db489;
 }
-
 .overviewCardSection .overviewCard .rightSection .percentDown {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: row;
+  align-items: center;
 }
-
 .overviewCardSection .overviewCard .rightSection .percentDown img {
   margin-right: 5px;
 }
-
 .overviewCardSection .overviewCard .rightSection .percentDown h6 {
   margin: 0;
   color: #dc414c;
 }
 
 .attribution {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-flow: row;
+  justify-content: space-evenly;
   margin-top: 20px;
   color: #fff;
 }
-
 .attribution a {
   color: #8b97c6;
   text-decoration: none;
 }
-
 .attribution a:hover {
   text-decoration: underline;
 }
@@ -382,121 +226,76 @@ body {
   .container {
     margin: 0 25px;
   }
+
   .topSection {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    flex-flow: column;
   }
+
   .modeSwitch {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
+
   .cardSection {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: column;
+    align-items: center;
   }
   .cardSection .card {
     width: 100%;
     margin-bottom: 20px;
   }
+
   .overviewCardSection {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: column;
+    align-items: center;
   }
   .overviewCardSection .overviewCard {
     width: 100%;
     margin-bottom: 20px;
   }
+
   .attribution {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: column;
+    align-items: center;
   }
 }
-
 @media (min-width: 768px) {
   .cardSection {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
   }
   .cardSection .card {
     width: 45%;
     margin-bottom: 20px;
   }
+
   .overviewCardSection {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
   }
   .overviewCardSection .overviewCard {
     width: 45%;
     margin-bottom: 20px;
   }
 }
-
 @media (min-width: 992px) {
   .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-flow: column;
+    justify-content: space-around;
     margin: 0 100px;
     height: 100%;
   }
+
   .topSection {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-flow: row;
+    justify-content: space-between;
     margin-bottom: 20px;
   }
   .topSection .title {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-flow: column;
+    justify-content: space-evenly;
   }
   .topSection .title .bigTitle {
     margin: 0;
@@ -507,40 +306,23 @@ body {
     color: #8b97c6;
   }
   .topSection .modeSwitch {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: row;
+    align-items: center;
   }
   .topSection .modeSwitch h5 {
     color: #8b97c6;
   }
   .topSection .modeSwitch .switchContainer {
-    background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
     background: linear-gradient(to right, #378fe6, #3eda82);
     height: 25px;
     border-radius: 50px;
     width: 50px;
     margin-left: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
   }
   .topSection .modeSwitch .switchContainer .switchButton {
     background-color: #fff;
@@ -550,17 +332,11 @@ body {
     margin-left: 3px;
     cursor: pointer;
   }
+
   .cardSection {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-flow: row;
+    justify-content: space-between;
   }
   .cardSection #facebook {
     border-top: 3px solid #4267b2;
@@ -583,31 +359,17 @@ body {
   .cardSection .card {
     height: 175px;
     width: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
     background-color: #252a41;
     border-radius: 5px;
   }
   .cardSection .card .cardTop {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-flow: row;
+    justify-content: space-around;
   }
   .cardSection .card .cardTop .logo {
     margin-right: 5px;
@@ -634,16 +396,9 @@ body {
     color: #8b97c6;
   }
   .cardSection .card .upDown {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: row;
+    align-items: center;
   }
   .cardSection .card .upDown img {
     margin-right: 5px;
@@ -652,53 +407,33 @@ body {
     color: #1db489;
     margin: 0;
   }
+
   .overviewTitle {
     margin: 0;
     margin-top: 30px;
     color: #fff;
   }
+
   .overviewCardSection {
     margin-top: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-flow: row;
+    justify-content: space-between;
   }
   .overviewCardSection .overviewCard {
     height: 110px;
     width: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-flow: row;
+    justify-content: space-around;
     background-color: #252a41;
     border-radius: 5px;
   }
   .overviewCardSection .overviewCard .leftSection {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
   }
   .overviewCardSection .overviewCard .leftSection .pageViewTitle {
     font-size: 12px;
@@ -708,38 +443,22 @@ body {
     color: #fff;
   }
   .overviewCardSection .overviewCard .leftSection .pageViewTitle,
-  .overviewCardSection .overviewCard .leftSection .pageViewNum {
+.overviewCardSection .overviewCard .leftSection .pageViewNum {
     margin: 0;
   }
   .overviewCardSection .overviewCard .rightSection {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
   }
   .overviewCardSection .overviewCard .rightSection .icon img {
     width: 17px;
   }
   .overviewCardSection .overviewCard .rightSection .percentUp {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: row;
+    align-items: center;
   }
   .overviewCardSection .overviewCard .rightSection .percentUp img {
     margin-right: 5px;
@@ -749,16 +468,9 @@ body {
     color: #1db489;
   }
   .overviewCardSection .overviewCard .rightSection .percentDown {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: row;
+    align-items: center;
   }
   .overviewCardSection .overviewCard .rightSection .percentDown img {
     margin-right: 5px;
@@ -767,17 +479,11 @@ body {
     margin: 0;
     color: #dc414c;
   }
+
   .attribution {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-flow: row;
+    justify-content: space-evenly;
     margin-top: 20px;
     color: #fff;
   }
@@ -789,10 +495,10 @@ body {
     text-decoration: underline;
   }
 }
-
 @media (min-width: 1440px) {
   .container {
     height: 100vh;
   }
 }
+
 /*# sourceMappingURL=dark_theme.css.map */
