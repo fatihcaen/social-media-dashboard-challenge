@@ -4,7 +4,7 @@ This is the social media dashboard with dark mode support challenge by frontendm
 
 You can access the challenge from <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H">this link</a>
 
-You can access the website from <a href="https://insure-landing-page-challenge.fatihcaen.now.sh/">this link</a>
+You can access the website from <a href="https://social-media-dashboard.imfast.io/">this link</a>
 
 # Used technologies
 
