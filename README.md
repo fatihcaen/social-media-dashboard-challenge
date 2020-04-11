@@ -2,9 +2,9 @@
 
 This is the social media dashboard with dark mode support challenge by frontendmenter.io.  Coded by me.
 
-You can access the challenge from <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H">this link</a>
+You can access the challenge from <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H" target="_blank">this link</a>
 
-You can access the website from <a href="https://social-media-dashboard.imfast.io/">this link</a>
+You can access the website from <a href="https://social-media-dashboard.imfast.io/" target="_blank">this link</a>
 
 # Used technologies
 
